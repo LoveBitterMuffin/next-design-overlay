@@ -1,0 +1,29 @@
+{
+  "name": "next-design-overlay",
+  "version": "1.0.0",
+  "description": "A design mode overlay for Next.js App Router projects, connecting AI coding agents directly to visual annotations.",
+  "main": "index.js",
+  "bin": {
+    "next-design-overlay": "bin/init.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "design",
+    "overlay",
+    "ai",
+    "agents",
+    "mcp"
+  ],
+  "author": "Дмитрий",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.0.0",
+    "fs-extra": "^11.2.0",
+    "prompts": "^2.4.2"
+  }
+}
