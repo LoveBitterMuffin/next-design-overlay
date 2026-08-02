@@ -6,13 +6,9 @@
 
 > **An interactive Next.js Design Overlay & MCP server that lets you visually annotate UI tasks and instantly sync them with AI coding agents like Cursor, Claude or Gemini.**
 
-<!-- 
-TODO: Add your 15-second demo GIF or video here! 
-Example: ![Demo](https://your-image-url.com/demo.gif)
-Show: 1. Click button -> 2. Draw box -> 3. Write "move right" -> 4. Cursor writes code 
--->
+<!-- Demo showing visual annotation and agent handoff -->
 <div align="center">
-  <img src="https://via.placeholder.com/800x450.png?text=Showcase+Your+15s+Demo+GIF+Here" alt="Demo GIF Placeholder" width="800"/>
+  <img src="demo.gif" alt="Design Overlay Demo" width="800"/>
 </div>
 
 A standalone mini-application and MCP (Model Context Protocol) server designed to bridge the gap between human designers/developers and AI coding agents. It provides an interactive UI inside your Next.js application to visually annotate, layout, and document design tasks, which are instantly synchronized with your AI agent.
