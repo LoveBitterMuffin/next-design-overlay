@@ -8,7 +8,7 @@
 
 <!-- Demo showing visual annotation and agent handoff -->
 <div align="center">
-  <img src="demo.gif" alt="Design Overlay Demo" width="800"/>
+  <video src="demo.mp4" autoplay loop muted playsinline width="800"></video>
 </div>
 
 A standalone mini-application and MCP (Model Context Protocol) server designed to bridge the gap between human designers/developers and AI coding agents. It provides an interactive UI inside your Next.js application to visually annotate, layout, and document design tasks, which are instantly synchronized with your AI agent.
