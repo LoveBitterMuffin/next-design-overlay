@@ -1,6 +1,21 @@
 # Next.js Design Overlay for AI Coding Agents 🎨
 
-A standalone mini-application and MCP (Model Context Protocol) server designed to bridge the gap between human designers/developers and AI coding agents (like Cursor, Claude, or Gemini). It provides an interactive UI inside your Next.js application to visually annotate, layout, and document design tasks, which are instantly synchronized with your AI agent.
+[![npm version](https://badge.fury.io/js/next-design-overlay.svg)](https://www.npmjs.com/package/next-design-overlay)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/LoveBitterMuffin/next-design-overlay.svg?style=social&label=Star)](https://github.com/LoveBitterMuffin/next-design-overlay)
+
+> **An interactive Next.js Design Overlay & MCP server that lets you visually annotate UI tasks and instantly sync them with AI coding agents like Cursor, Claude or Gemini.**
+
+<!-- 
+TODO: Add your 15-second demo GIF or video here! 
+Example: ![Demo](https://your-image-url.com/demo.gif)
+Show: 1. Click button -> 2. Draw box -> 3. Write "move right" -> 4. Cursor writes code 
+-->
+<div align="center">
+  <img src="https://via.placeholder.com/800x450.png?text=Showcase+Your+15s+Demo+GIF+Here" alt="Demo GIF Placeholder" width="800"/>
+</div>
+
+A standalone mini-application and MCP (Model Context Protocol) server designed to bridge the gap between human designers/developers and AI coding agents. It provides an interactive UI inside your Next.js application to visually annotate, layout, and document design tasks, which are instantly synchronized with your AI agent.
 
 ## Features
 
@@ -10,7 +25,7 @@ A standalone mini-application and MCP (Model Context Protocol) server designed t
 - **Task Management**: Create structured tasks linked to visual areas. Tasks are stored in a `.design-spec/annotations.json` file and compiled to a `UI_SPEC.md` for agents to read.
 - **MCP Server**: Exposes tools for AI agents to query active design tasks, fetch visual snapshots, and mark tasks as resolved.
 
-## Installation
+## 🚀 Quickstart
 
 Run the following command in the root of your Next.js App Router project:
 
@@ -18,7 +33,7 @@ Run the following command in the root of your Next.js App Router project:
 npx next-design-overlay init
 ```
 
-The installer will ask you a few questions and automatically copy the necessary components, API routes, and MCP scripts into your project. It will also install `html-to-image` as a dependency.
+*Takes less than a minute!* The installer will ask you a few questions and automatically copy the necessary components, API routes, and MCP scripts into your project. It will also install `html-to-image` as a dependency.
 
 ### Prerequisites
 - Next.js 13+ (App Router)
